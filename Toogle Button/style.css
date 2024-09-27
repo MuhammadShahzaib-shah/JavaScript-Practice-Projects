@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+
+.min {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    width: 10vw;
+    height: 8vh;
+    background-color: black;
+    display: flex;
+    border-radius:3vh;
+    padding: 4px;
+    /* justify-content: center; */
+    align-items: center;
+    cursor: pointer;
+}
+
+.sub {
+    width: 4vw;
+    height: 7vh;
+    border-radius: 100%;
+    background-color: white;
+}
+@media (max-width:600px) {
+    .main{
+        width: 20vw;
+        height: 6vh;
+
+    }
+    .sub{
+        width: 8vw;
+    }    
+}
